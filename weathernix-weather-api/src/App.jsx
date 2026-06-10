@@ -1047,7 +1047,7 @@ function LoadingState({ label }) {
 
 // ─── App ───
 function App() {
-  const [search, setSearch] = useState("Prayagraj");
+  const [search, setSearch] = useState("Delhi");
   const [dark, setDark] = useState(true);
   const [activeTab, setActiveTab] = useState("overview");
   const [sidebarVisible, setSidebarVisible] = useState(true);
@@ -1071,7 +1071,7 @@ function App() {
   }, [favorites]);
 
   useEffect(() => {
-    loadWeather("Prayagraj");
+    loadWeather("Delhi");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
