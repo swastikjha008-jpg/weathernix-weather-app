@@ -47,7 +47,6 @@ Simply open the `index.html` file in your preferred web browser.
 
 * [ ] Add 5-day weather forecast.
 * [ ] Implement geolocation to detect user's current city.
-* [ ] Add a dark/light mode toggle.
 
 ---
 
